@@ -1,5 +1,5 @@
 donations:
-BALbH9XBDtQjz11rmUsUnoj3kjwZAc3bg3
+NONE
 
 Screenshoot
 http://i.imgur.com/ylnqrlZ.png

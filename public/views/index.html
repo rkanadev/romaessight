@@ -50,7 +50,7 @@
             <td>
               <a class="ellipsis" href="/tx/{{tx.txid}}">{{tx.txid}}</a>
             </td>
-            <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' BLK'}}</span></td>
+            <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' RSC'}}</span></td>
           </tr>
           </tbody>
         </table>
@@ -78,11 +78,11 @@
         </span> &middot;
         <strong>{{'Height'|translate}}</strong> {{totalBlocks || info.blocks}}
 		&middot;
-        <strong>Supply</strong> {{info.moneysupply}} BLK
+        <strong>Supply</strong> {{info.moneysupply}} RSC
       </div>
       </li>
-		<p translate><strong>Donate:</strong> BALbH9XBDtQjz11rmUsUnoj3kjwZAc3bg3</p>
-        <p translate><strong>RomaESsight</strong>  is an open-source blockchain explorer based on <a href="https://insight.is/" target="_blank">insight</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by blackcoind RPC.  Check out the <a href="https://github.com/rkanadev/insight/tree/romaessight" target="_blank">source code</a>.</p>
+		<p translate><strong>Donate:</strong> NONE</p>
+        <p translate><strong>RomaESsight</strong>  is an open-source blockchain explorer based on <a href="https://insight.is/" target="_blank">insight</a> with complete REST and websocket APIs that can be used for writing web wallets and other apps  that need more advanced blockchain queries than provided by blackcoind RPC.  Check out the <a href="https://github.com/bitpay/insight" target="_blank">source code</a>.</p>
         <p translate><strong>RomaESsight</strong> is still in development.</p>
         <div id="powered" class="row">
           <div class="powered-text">
