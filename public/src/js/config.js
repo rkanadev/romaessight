@@ -5,7 +5,7 @@ angular.module('insight').config(function($routeProvider) {
   $routeProvider.
     when('/block/:blockHash', {
       templateUrl: '/views/block.html',
-      title: 'Blackcoin Block '
+      title: 'Roma-E-Solidus Block '
     }).
     when('/block-index/:blockHeight', {
       controller: 'BlocksController',
@@ -17,7 +17,7 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/tx/:txId/:v_type?/:v_index?', {
       templateUrl: '/views/transaction.html',
-      title: 'Blackcoin Transaction '
+      title: 'Roma-E-Solidus Transaction '
     }).
     when('/', {
       templateUrl: '/views/index.html',
@@ -25,15 +25,15 @@ angular.module('insight').config(function($routeProvider) {
     }).
     when('/blocks', {
       templateUrl: '/views/block_list.html',
-      title: 'Blackcoin Blocks solved Today'
+      title: 'Roma-E-Solidus Blocks solved Today'
     }).
     when('/blocks-date/:blockDate/:startTimestamp?', {
       templateUrl: '/views/block_list.html',
-      title: 'Blackcoin Blocks solved '
+      title: 'Roma-E-Solidus Blocks solved '
     }).
     when('/address/:addrStr', {
       templateUrl: '/views/address.html',
-      title: 'Blackcoin Address '
+      title: 'Roma-E-Solidus Address '
     }).
     when('/status', {
       templateUrl: '/views/status.html',
