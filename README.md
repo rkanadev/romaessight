@@ -36,7 +36,7 @@ Check some screenshots and more details at [insight's project homepage](http://i
     $ chmod u+x start.sh
 	$ ./start.sh
     
-  start.sh sets enviroment variables so the insight can conncect to blackcoind. Then open a browser and go to:
+  start.sh sets enviroment variables so the insight can conncect to romaesd. Then open a browser and go to:
 
     http://localhost:3000
 
